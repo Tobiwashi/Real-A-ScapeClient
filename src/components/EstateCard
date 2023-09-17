@@ -1,9 +1,8 @@
-import { Link } from 'react-router-dom'
-import SpainPhoto from '../images/Spain.jpg'
 
 
 
-function Tile(props) {
+
+function EstateCard(props) {
     return (
         <>
             <div class="block rounded-md bg-black mx-auto my-8 w-3/4 md:w-1/4 sm:w-2/5 ">
@@ -27,7 +26,3 @@ function Tile(props) {
         </>
     )
 }
-
-
-
-export default Tile
